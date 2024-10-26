@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+.navbar{
+    background-color: #b3f2b3;
+}
+.navbar-brand{
+    width: 8%;
+}
+.nav-link{
+    color: #df560d !important;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 50px;
+}
+.btn{
+    background-color: rgb(239, 171, 25) !important;
+    color: black;
+}
+.bgimg{
+    background-image: url("https://img.freepik.com/free-photo/freshly-picked-strawberries-from-field-ai-generated-image_511042-1699.jpg?semt=ais_hybrid");
+    background-position: center;
+    background-size: cover;
+    width: 98vw;
+    height: 70vh;
+}
+.hhead{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 2%;
+}
+.btn-success-hbtn{
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 2%;
+}
+.heading{
+    color: #df560d;
+    font-size: 45px;
+}
+.ahead{
+    color: #b3f2b3;
+}
+.apara{
+    color: #df560d;
+}
+.carousel-item img{
+    width: 60%;
+    aspect-ratio: 4/2;
+}
+
+/* products css */
+.card-img-top{
+    width: 100%;
+    aspect-ratio: 3/3;
+}
+.phead{
+    color: #df560d;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.ppara{
+    color: #55f355;
+    font-weight: bold;
+    text-align: center;
+}
+.pro .hello .card{
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid transparent;
+}
+.footer{
+    background-color: #55f355;
+}
+.hfoot{
+    color: white;
+    text-decoration: underline 2px solid gold;
+}
+.foott{
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+}
+.ficons{
+    color: skyblue;
+    font-size: 30px;
+    margin: 1%;
+}
+.ficons:hover{
+    color: white;
+    transform: scale(1.2);
+}
+.copy{
+    background-color: black;
+    color: white;
+    padding: 2%;
+    text-align: center;
+}
+.copy h6{
+    font-size: 22px;
+}
