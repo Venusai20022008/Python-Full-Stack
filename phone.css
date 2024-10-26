@@ -1,0 +1,236 @@
+*{
+    /* border: 1px solid red; */
+    font-family: sans-serif;
+}
+.btn{
+   border-radius: 15px;
+   border-color: #8436ea;
+   background-color: white;
+   color: #28005e;
+   padding: 10px;
+   font-size: medium;
+   width: 22%;
+   /* font-family: sans-serif; */
+   font-weight: 500;
+}
+.btn:hover{
+   background-color: #28005e;
+   color: white;
+   /* text-decoration: none; */
+}
+.p1{
+    padding: 5px;
+}
+.p2{
+    padding: 5px;
+    color: #8436ea;
+    font-weight: 700;
+}
+.one{
+    text-align: center;
+}
+.two{
+    color: #361968;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 20px;
+    /* background-color: #e4e0fb; */
+    background: linear-gradient(to bottom, #e4e0fb, #ffffff);
+    
+}
+.btn1{
+    background-color: #07c3de;
+    color: white;
+    width: 15%;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    height: 7vh;
+    
+}
+.btn1:hover{
+    background-color: #23c5db;
+}
+.img{
+    background-image: url("https://www.phonepe.com/webstatic/8220/static/6f6a045306a14491bf6aa948f2dab1eb/5707d/partner-section-desk.png");
+    z-index: 2;
+    background-position: center;
+    background-size: contain;
+    width: 95vw;
+    height: 45vh;
+    margin-top: 5%;
+}
+
+/* section 3 */
+.container {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #7962bd;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    margin-bottom: 40px;
+    color: #cabff8;
+}
+
+.stats div {
+    text-align: center;
+}
+
+.stats h1 {
+    font-size: 36px;
+    margin: 0;
+    color: white;
+    
+}
+
+.stats p {
+    font-size: 18px;
+    margin: 5px 0 0;
+    
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: #cabff8;
+
+}
+.button-container p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.explore-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #00BFFF;
+    border-radius: 25px;
+    padding: 25px;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 10%;
+    width: 9%;
+}
+
+.footer-image {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #f5f5f5;
+    padding: 40px;
+    color: #000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    width: 18%;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.footer-section h3:hover{
+    color: #8436ea;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    padding: 20px 40px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    /* text-align: center; */
+    margin-left: 42%;
+
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+.butt{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 70%;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-section {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+}
